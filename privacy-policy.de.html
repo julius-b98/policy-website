@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <title>Datenschutzrichtlinie — Lusit</title>
+    <style>
+    :root { --ink: #1f2933; --muted: #647382; --accent: #2f7d5b; --line: #e3e8ee; --bg: #ffffff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-text-size-adjust: 100%; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 72px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center;
+        padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+    .brand { font-weight: 700; letter-spacing: 0.2px; color: var(--accent); text-decoration: none; font-size: 18px; }
+    .lang a { color: var(--muted); text-decoration: none; font-size: 14px; }
+    .lang a:hover { color: var(--accent); }
+    h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 4px; }
+    .effective { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
+    section { margin: 0 0 28px; }
+    h2 { font-size: 19px; line-height: 1.3; margin: 32px 0 10px; padding-top: 4px; }
+    p { margin: 0 0 12px; }
+    p.label { font-weight: 600; margin: 16px 0 6px; }
+    ul { margin: 4px 0 14px; padding-left: 22px; }
+    li { margin: 0 0 6px; }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
+        color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="topbar">
+            <a class="brand" href="index.html">Lusit</a>
+            <span class="lang"><a href="privacy-policy.html">English</a></span>
+        </div>
+        <h1>Datenschutzrichtlinie</h1>
+        <p class="effective">Gültig ab: 1. Juni 2026</p>
+        <section>
+            <h2>Einleitung</h2>
+            <p>Diese Datenschutzrichtlinie erklärt, welche Daten Lusit erhebt, wie sie verwendet werden, wo sie gespeichert sind und welche Rechte du hast. Lusit ist eine allgemeine Wellness-App, kein Medizinprodukt.</p>
+        </section>
+        <section>
+            <h2>Kontakt</h2>
+            <p>E-Mail: <a href="mailto:jjb.personaltraining@gmail.com">jjb.personaltraining@gmail.com</a><br>Entwickler: Julius Brück<br>Anwendbares Recht: Deutschland / EU (DSGVO)</p>
+        </section>
+        <section>
+            <h2>1. Welche Daten wir erheben</h2>
+            <p>Datenkategorien, die wir erheben:</p>
+            <p class="label">Konto und Anmeldung:</p>
+            <ul><li>E-Mail und Passwort (über Supabase Auth; Passwörter gehasht gespeichert)</li><li>Konto-ID (von Supabase Auth)</li><li>Geburtsdatum (zur Bestätigung der Altersanforderung von 18 Jahren)</li><li>Datum der Kontoerstellung</li><li>Zeitstempel der letzten Aktivität</li><li>Zeitpunkt der Einwilligung und akzeptierte Version der Datenschutzrichtlinie</li></ul>
+            <p class="label">Persönliches Profil (optional):</p>
+            <ul><li>Körpergröße (cm) und Gewicht (kg)</li><li>Biologisches Geschlecht</li><li>Berechneter BMI (aus Körpergröße und Gewicht)</li><li>Selbst angegebenes Fitness-Erfahrungslevel</li></ul>
+            <p class="label">Aktivitäts- und Wellness-Daten:</p>
+            <ul><li>Erledigte Gewohnheiten (Fitness, Stretching, Ernährung): Datum, durchgeführte Dosis (Wiederholungen, Sätze, Dauer, Menge, Einheiten) und als erledigt markierte Items</li><li>Pläne ("Blueprints"), die du erstellst oder generierst: Zeitplan, Sektionen und eine Momentaufnahme deiner Personalisierungsdaten zum Zeitpunkt der Erstellung</li><li>Plandurchläufe (aktiv und historisch): geplante und erreichte Anzahl</li><li>Statistiken pro Gewohnheit (Anzahl der Erledigungen, jüngste Daten)</li><li>Feedback zu Gewohnheiten (Schwierigkeit, Freude, gefühlte Anstrengung (RPE), Unbehagen-Bewertungen, Signale zu sofortiger Lockerung und Verspannungsbereichen, Skip-Gründe, optionale Notizen)</li><li>Gewichtsverlauf (nur wenn du dein Gewicht erfasst)</li><li>Aufzeichnungen zu Gewichtsanpassungen (welche Kategorien der Algorithmus höher oder niedriger gewichtet hat, und warum)</li><li>Zusammenfassungen pro Gewohnheit (jüngste Erledigungsraten, Markierungen für Tausch oder Dosisanpassung)</li></ul>
+            <p class="label">Nutzungs- und App-Aktivitätssignale:</p>
+            <ul><li>Tägliche Aktivitätsmarker (lokale Zeitzone): App-geöffnet, erledigte Gewohnheiten, geplante Gewohnheiten, eingereichtes Feedback</li><li>Tägliche, wöchentliche und monatliche Aktivitätsmarker (DAU/WAU/MAU)</li><li>Aktuelle Serie und App-Öffnungs-Aktualität</li></ul>
+            <p class="label">Onboarding-Präferenzen:</p>
+            <ul><li>Angegebenes Wellness-Ziel (z. B. abnehmen, stärker werden, mehr Energie, mehr Gemüse essen, beweglicher werden)</li><li>Tägliches Zeitbudget (Minuten pro Tag)</li><li>Selbst angegebene Essgewohnheiten, Häufigkeit zuckerhaltiger Getränke, Verspannungs-/Unbehagensbereiche, verfügbare Ausstattung und weitere Antworten aus Onboarding oder Personalisieren-Flow</li></ul>
+            <p class="label">Lern- und Belohnungsdaten:</p>
+            <ul><li>Erledigte In-App-Aufgaben</li><li>Verdiente Belohnungssterne</li><li>Anzahl erhaltener Belohnungen</li><li>Wiederholungsfortschritt (Anzahl gefüllter Punkte, Fehlversuche pro Frage)</li></ul>
+            <p class="label">Einstellungen und Gerätedaten:</p>
+            <ul><li>Design und Spracheinstellung</li><li>Schalter für Benachrichtigungen, Vibrationen und Animationen</li><li>Zeitzone und UTC-Verschiebung (für Planung und lokale Tagesgrenzen)</li><li>Push-Token (nur wenn du Benachrichtigungen aktivierst) und Zeitstempel der letzten Aktualisierung</li></ul>
+            <p class="label">Abonnement- und Kaufdaten (nur bei Abo):</p>
+            <ul><li>Abo-Stufe (Free, Standard, Premium) und ob aktiv</li><li>Abo-Ereignisse (Käufe, Verlängerungen, Kündigungen, Abläufe), über RevenueCat</li><li>Zahlungen werden von Apple oder Google als Verkäufer abgewickelt. Wir erhalten oder speichern keine Zahlungskarten- oder Bankdaten, nur Abo-Status und Stufe.</li></ul>
+            <p>Wir erheben nicht: deinen Namen, Standort, deine IP-Adresse (über das hinaus, was Hosting-Anbieter zur Sicherheit und für das Routing verarbeiten), Werbe- oder Hardware-Identifikatoren, Zahlungskarten- oder Bankdaten, Kontakte, Fotos oder Daten von Drittanbieter-Fitness- oder Gesundheitsplattformen.</p>
+        </section>
+        <section>
+            <h2>2. Wie wir deine Daten verwenden</h2>
+            <p class="label">Wir verwenden deine Daten, um:</p>
+            <ul><li>die App-Funktionalität bereitzustellen (Gewohnheits-Tracking, Planerstellung)</li><li>Empfehlungen für Fitness, Stretching und Ernährung zu personalisieren</li><li>Schwierigkeit, Dosis und Auswahl der Gewohnheiten an dein Feedback anzupassen (Präferenzdaten, keine medizinischen Daten)</li><li>Fortschritt, Serien und Statistiken anzuzeigen</li><li>aktivierte Push-Benachrichtigungen zu senden</li><li>dein Abonnement zu verwalten und die Funktionen deiner Stufe freizuschalten</li><li>aggregierte, anonymisierte Wirksamkeitsstatistiken zu berechnen</li></ul>
+            <p class="label">Wir verwenden deine Daten nicht für:</p>
+            <ul><li>medizinische Diagnose, Behandlung oder Krankheitsvorbeugung</li><li>Verkauf an Dritte</li><li>verhaltensbasierte Werbung oder Werbeausspielung</li><li>Profilbildung außerhalb der In-App-Personalisierung</li></ul>
+        </section>
+        <section>
+            <h2>3. Datenspeicherung, Sicherheit und Standort</h2>
+            <p class="label">Deine Daten werden auf Infrastruktur in der Europäischen Union gespeichert:</p>
+            <ul><li>Datenbank: Supabase-gehostetes PostgreSQL (EU-Region)</li><li>API-Server: Google Cloud Run, Region europe-west1 (Belgien)</li></ul>
+            <p>Wenn du ein Abo abschließt, wird dein Abo-Status zusätzlich von RevenueCat (siehe Abschnitt 7) in den USA verarbeitet, abgedeckt durch einen Auftragsverarbeitungsvertrag mit Standardvertragsklauseln.</p>
+            <p class="label">Sicherheit:</p>
+            <ul><li>Supabase Auth mit gehashten Anmeldedaten; wir sehen dein Passwort nicht im Klartext</li><li>verschlüsselte Übertragung (HTTPS/TLS)</li><li>Row-Level-Security (RLS) beschränkt den Zugriff auf deine eigenen Daten</li><li>Profildaten getrennt von Aktivitätsdaten unter deiner Konto-ID gespeichert</li><li>kurzlebige JWT-Tokens (Supabase Auth) authentifizieren API-Anfragen</li></ul>
+            <p>Wir setzen keine Drittanbieter-Analyse-Tools, Werbe-SDKs, Crash-Reporter oder verhaltensbasierten Tracker ein und geben keine Daten an Werbe- oder Tracking-Anbieter weiter.</p>
+        </section>
+        <section>
+            <h2>4. Deine Rechte (DSGVO)</h2>
+            <p>Nach der DSGVO hast du folgende Rechte:</p>
+            <p>Auskunft (Art. 15): Exportiere alle deine Daten als JSON unter Einstellungen → Profil bearbeiten → Daten exportieren (Kontodaten, Einstellungen, Profil, Gewichtsverlauf, Pläne, Plandurchläufe, Erledigungen, Statistiken, Feedback, Outcomes, Engagement-Verlauf).</p>
+            <p>Berichtigung (Art. 16): Aktualisiere deine Daten in der App (Körpergröße, Gewicht, Alter, Geschlecht, Erfahrungslevel, Einstellungen, Sprache). Um deine E-Mail-Adresse zu ändern oder etwas zu korrigieren, das nicht in der App bearbeitbar ist, kontaktiere <a href="mailto:jjb.personaltraining@gmail.com">jjb.personaltraining@gmail.com</a>.</p>
+            <p>Löschung (Art. 17): Lösche dein gesamtes Konto unter Einstellungen → Profil bearbeiten → Konto löschen, oder nur deine Profil- und Gewichtsverlaufsdaten unter Einstellungen → Profil bearbeiten → Persönliche Daten löschen.</p>
+            <p>Datenübertragbarkeit (Art. 20): Daten exportieren stellt deine kontobezogenen Daten in maschinenlesbarem JSON bereit.</p>
+            <p>Einschränkung (Art. 18) und Widerspruch (Art. 21): Kontaktiere <a href="mailto:jjb.personaltraining@gmail.com">jjb.personaltraining@gmail.com</a>; wir bearbeiten Anliegen innerhalb von 30 Tagen.</p>
+            <p>Beschwerde: Du kannst dich bei deiner zuständigen Aufsichtsbehörde beschweren. In Deutschland ist das deine Landesdatenschutzbehörde (Landesbeauftragter für den Datenschutz).</p>
+        </section>
+        <section>
+            <h2>5. Datenlöschung</h2>
+            <p class="label">Die Löschung deines Kontos entfernt dauerhaft und sofort (keine Frist, kein Soft-Delete, keine Wiederherstellung):</p>
+            <ul><li>Anmeldekonto (E-Mail und Anmeldedaten, Supabase Auth)</li><li>Nutzerdatensatz, Einstellungen und Push-Token</li><li>Profildaten (Körpergröße, Gewicht, Alter, Geschlecht, BMI, Erfahrungslevel)</li><li>alle Gewichtseinträge und Datensätze zu Gewichtsanpassungen</li><li>alle Pläne (Blueprints) und Plandurchläufe inklusive Algorithmus-Eingabedaten und Allokations-Logs</li><li>alle Erledigungen, Statistiken pro Gewohnheit, Feedback und Outcomes</li><li>alle Engagement-Signale und Engine-Cooldown-Daten</li><li>alle erhaltenen Sterne, Belohnungen, erledigten Aufgaben und Wiederholungsfortschritte</li></ul>
+            <p>Die Löschung nur deiner persönlichen Daten entfernt: Körpergröße, Gewicht, Alter, biologisches Geschlecht, BMI, Fitness-Erfahrungslevel und deinen vollständigen Gewichtsverlauf. Konto, Pläne, Erledigungen und Feedback bleiben.</p>
+            <p>Beide Aktionen löschen auch deinen lokalen App-Zustand und gecachte Daten vom Gerät.</p>
+        </section>
+        <section>
+            <h2>6. Datenaufbewahrung</h2>
+            <p>Deine Daten werden aufbewahrt, solange dein Konto aktiv ist.</p>
+            <p>Die Löschung deines Kontos entfernt alle kontobezogenen Daten sofort, wie in Abschnitt 5 beschrieben.</p>
+            <p>Aggregierte, anonymisierte Wirksamkeitsstatistiken auf Populationsebene (nicht auf einzelne Nutzende zurückführbar) können nach der Löschung aufbewahrt werden, um Empfehlungen zu verbessern. Sie enthalten nur Erfolgszähler pro Gewohnheit und Konfidenzintervalle, keine Identifikatoren oder demografischen Daten.</p>
+        </section>
+        <section>
+            <h2>7. Drittanbieter-Dienste</h2>
+            <p>Lusit nutzt die folgenden Auftragsverarbeiter (wir sind der Verantwortliche; jeder ist Auftragsverarbeiter nach DSGVO):</p>
+            <ul><li>Supabase (Authentifizierung, PostgreSQL-Datenbank, Speicher): Kontoverwaltung, Datenspeicherung, serverseitige Verarbeitung. Hosting in der EU.</li><li>Google Cloud Run (europe-west1, Belgien): hostet unseren zustandslosen API-Server. Anfragen passieren ihn, werden aber über übliche Betriebs-Logs hinaus nicht aufbewahrt.</li><li>Expo Push Notification Service: wenn du Benachrichtigungen aktivierst, werden Push-Token und Nachrichtentext über Expo an APNs (iOS) oder FCM (Android) zugestellt. Keine Analyse- oder Verhaltensdaten weitergegeben.</li><li>Expo (EAS Update): beim Start fragt die App u.expo.dev nach Over-the-Air-JavaScript-Updates ab und sendet Geräte-Metadaten (OS-Version, Gerätemodell, Sprache, App-Version), keine personenbezogenen Daten.</li><li>RevenueCat (Abo-Verwaltung und Kaufvalidierung): validiert deinen Kauf im App Store oder bei Google Play und meldet deine Stufe an unseren Server. Erhält deine Kontokennung und Abo-Ereignisse, keine Zahlungskartendaten. Verarbeitet Daten in den USA auf Grundlage eines Auftragsverarbeitungsvertrags.</li></ul>
+            <p>Wir setzen keine Werbenetzwerke, Social-Media-SDKs, Analyse-Plattformen, Attributions-Dienste, Crash-Reporter oder A/B-Test-Dienste ein.</p>
+        </section>
+        <section>
+            <h2>8. Datenschutz für Kinder</h2>
+            <p>Lusit ist nicht für Personen unter 18 Jahren bestimmt. Wir setzen die Altersanforderung von 18 Jahren bei der Anmeldung über das Geburtsdatum durch; für unter 18-Jährige wird kein Konto erstellt. Wenn du der Meinung bist, dass ein Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktiere <a href="mailto:jjb.personaltraining@gmail.com">jjb.personaltraining@gmail.com</a>, und wir löschen sie.</p>
+        </section>
+        <section>
+            <h2>9. Änderungen dieser Richtlinie</h2>
+            <p>Wir können diese Datenschutzrichtlinie aktualisieren. Änderungen erkennst du am aktualisierten Gültigkeitsdatum oben und an der mit deinem Konto verknüpften Versionskennung. Bei wesentlichen Änderungen informieren wir dich in der App und holen, wo gesetzlich erforderlich, eine erneute Einwilligung ein. Die fortgesetzte Nutzung nach Änderungen gilt als Zustimmung, sofern keine erneute Einwilligung gesetzlich erforderlich ist.</p>
+        </section>
+        <section>
+            <h2>10. Kontakt aufnehmen</h2>
+            <p>Fragen, DSGVO-Anliegen oder Datenschutzbedenken: <a href="mailto:jjb.personaltraining@gmail.com">jjb.personaltraining@gmail.com</a> (Antwort innerhalb von 30 Tagen).</p>
+        </section>
+        <footer>Diese Seite wird aus dem In-App-Dokument der Lusit-App veröffentlicht und entspricht exakt der Anzeige in der App.</footer>
+    </div>
+</body>
+</html>
